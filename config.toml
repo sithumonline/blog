@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://sithum.online/blog/"
 title = "Sithum's Blog"
 theme = "ghostwriter"
 
