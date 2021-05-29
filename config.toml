@@ -12,6 +12,7 @@ theme = "ghostwriter"
     linkedin = "https://www.linkedin.com/in/sithumonline"
     stackoverflow = "https://stackoverflow.com/users/12165840/xeon"
     facebook = "https://www.facebook.com/sithumonline"
+    home = "https://sithum.online/"
     opengraph = true
     shareTwitter = true
     shareFacebook = true
