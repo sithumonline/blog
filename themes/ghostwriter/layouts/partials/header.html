@@ -72,6 +72,11 @@
                                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                             </a>
                         {{ end }}
+                        {{ with .Site.Params.home }}
+                            <a class="button-square button-social hint--top" data-hint="Home" aria-label="Home Page" href="{{ . }}" rel="me">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                            </a>
+                        {{ end }}                        
                         {{ with .Site.Params.email }}
                             <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:{{ . }}">
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
