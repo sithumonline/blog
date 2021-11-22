@@ -17,6 +17,8 @@ menu = "main"
 
 ## How the docker network works
 
+![](/blog/assets/images/container_networking.png)
+
 Like namespaces and cgroups the Linux kernel offers [virtual ethernet device](https://man7.org/linux/man-pages/man4/veth.4.html) pairs and [virtual bridge](https://man7.org/linux/man-pages/man8/bridge.8.html). Yes! you’re right, we can connect one ethernet device to the container and the other ethernet device to the bridge. After all, we can assign IP addresses and ping. Docker uses a library called [llibnetwork](https://github.com/moby/libnetwork) for this.
 
 ## How the Kubernetes network works
